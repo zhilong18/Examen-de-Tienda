@@ -24,7 +24,7 @@ public class LibroServiceImpl implements LibroService {
 	AutorRepository autorRepository;
 
 	@Override
-	@Transactional
+
 	public LibroDTO crearLibroConAutor(LibroDTO libro) {
 
 		LibroEntity libE = libroMappers.toEntity(libro);
